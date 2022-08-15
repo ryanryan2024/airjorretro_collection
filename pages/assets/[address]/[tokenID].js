@@ -61,13 +61,13 @@ const NFT = () => {
                             </div>
                     </div>
                     <div className="py-24">
-                        <div className="flex justify-center">
+                        <div className="flex justify-center px-5">
                             <button className="border-2 border-black text-black p-3 rounded-3xl hover:text-white hover:bg-black" onClick={buyNFT}>
                                 Review Order: {listing?.asset?.name} NFT
                             </button>
                         </div>
                         <div className="flex justify-center p-5">
-                            Prior To Purchasing: Ensure you have connected your wallet prior to reviewing.
+                            Prior To Purchasing: Ensure you have connected your wallet and have sufficient funds prior to reviewing.
                         </div>
                         <div className="flex justify-center p-5">
                             Purchasing: Click button once, may take 10 seconds for the response.
